@@ -156,7 +156,7 @@ module.exports = function (req, res, url) {
 			                tray: "custom",
 			                tlang: "en_US",
 			                ut: 30,
-					nextUrl: "/pages/html/list.html",
+					nextUrl: "/m/movies",
 					tutorial: 1,
 				},
 				allowScriptAccess: "always",
