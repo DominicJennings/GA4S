@@ -56,10 +56,10 @@
 
         <ul class="nav site-nav-alert-nav hidden-xs">
             <li>
-                <a href="/messages" title="Messages"><span class="glyphicon glyphicon-envelope"></span><span class="count"></span></a>
+                <a href="#" title="Messages"><span class="glyphicon glyphicon-envelope"></span><span class="count"></span></a>
             </li>
             <li>
-                <a href="/notifications" title="Notifications"><span class="glyphicon glyphicon-bell"></span><span class="count"></span></a>
+                <a href="#" title="Notifications"><span class="glyphicon glyphicon-bell"></span><span class="count"></span></a>
             </li>
         </ul>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -70,23 +70,23 @@
                 <li class="dropdown">
                     <a class="dropdown-toggle" href="#" data-toggle="dropdown">Your Account <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/you">Dashboard</a></li>
-                        <li><a href="/dashboard/videos">Your Videos</a></li>
+                        <li><a href="#">Dashboard</a></li>
+                        <li><a href="#">Your Videos</a></li>
                         <li class="divider"></li>
-                        <li><a href="/account">Account Settings</a></li>
-                        <li><a href="/profile">Your Profile</a></li>
+                        <li><a href="#">Account Settings</a></li>
+                        <li><a href="#">Your Profile</a></li>
                         <li class="divider"></li>
-                        <li><a class="logout-link" href="/logoff">Logout</a></li>
+                        <li><a class="logout-link" href="#">Logout</a></li>
                     </ul>
                 </li><li class="dropdown">
                     <a class="dropdown-toggle" href="#" data-toggle="dropdown">Explore <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/students">Students</a></li>
-                        <li><a href="/teachers">Teachers</a></li>
-                        <li><a href="/dashboard/videos">Videos</a></li>
+                        <li><a href="#">Students</a></li>
+                        <li><a href="#">Teachers</a></li>
+                        <li><a href="#">Videos</a></li>
                         <li class="divider"></li>
                         <li><a href="https://discord.gg/bb8xXaWPv3">Educator Experiences</a></li>
-                        <li><a href="/public_faq">FAQ</a></li>
+                        <li><a href="#">FAQ</a></li>
                     </ul>
                 </li>
                 <li>
@@ -154,7 +154,7 @@
 		<tbody></tbody>
 		<tfoot>
 			<tr>
-				<td colspan="127"><a id="load_more" href="javascript:;">Load more of your videos...</a></td>
+				<td colspan="127"><a id="load_more" href="javascript:;">Load more...</a></td>
 			</tr>
 		</tfoot>
 	
@@ -184,9 +184,10 @@ _kiq.push(['identify', "ynnbrxqnecaymhdirl@awdrt.org"]);
                 <div class="site-footer-nav-col">
                     <h5>About GoAnimate</h5>
                     <ul class="list-unstyled">
-                        <li><a href="https://discord.gg/bb8xXaWPv3">Who We Are</a></li>
-                        <li><a href="https://discord.gg/bb8xXaWPv3">Contact Us</a></li>
-                        <li><a href="https://discord.gg/bb8xXaWPv3">Blog</a></li>
+                        <li><a href="#">Who We Are</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
                     </ul>
                 </div>
             </div>
@@ -195,8 +196,20 @@ _kiq.push(['identify', "ynnbrxqnecaymhdirl@awdrt.org"]);
                 <div class="site-footer-nav-col">
                     <h5>GoAnimate Solutions</h5>
                     <ul class="list-unstyled">
-                        <li><a href="https://itsredacted.000webhostapp.com/" target="_blank">GoAnimate for Schools</a></li>
+                        <li><a href="#" target="_blank">GoAnimate For Schools</a></li>
                         <li class="hidden-xs">&nbsp;</li>
+                        <li class="hidden-xs">&nbsp;</li>
+                        <li class="hidden-xs">&nbsp;</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h5>Usage Guidelines</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
                         <li class="hidden-xs">&nbsp;</li>
                         <li class="hidden-xs">&nbsp;</li>
                     </ul>
@@ -207,29 +220,37 @@ _kiq.push(['identify', "ynnbrxqnecaymhdirl@awdrt.org"]);
                 <div class="site-footer-nav-col">
                     <h5>Getting Help</h5>
                     <ul class="list-unstyled">
-                        <li><a href="https://discord.gg/bb8xXaWPv3">Help Center</a></li>
+                        <li><a href="#">Educator Experiences</a></li>
+                        <li><a href="#">Help Center</a></li>
                         <li class="hidden-xs">&nbsp;</li>
                         <li class="hidden-xs">&nbsp;</li>
                     </ul>
                 </div>
             </div>
         </div>
-        <hr>
+        <hr/>
 
         <div class="row site-footer-copyright">
             <div class="col-sm-6">
                 <div class="site-footer-socials-container">
                     Follow us on:
                     <ul class="site-footer-socials clearfix">
-                        <li><a class="youtube" href="https://www.youtube.com/channel/UCiEYUXgWlGQqYfxyMhYGWRQ">YouTube</a></li>
+                        <li><a class="facebook" href="https://facebook.com/GoAnimateInc">Facebook</a></li>
+                        <li><a class="twitter" href="https://twitter.com">Twitter</a></li>
+                        <li><a class="linkedin" href="https://linkedin.com">Linked In</a></li>
+                        <li><a class="gplus" href="https://google.com">Google+</a></li>
+                        <li><a class="youtube" href="https://youtube.com/@DJDominicJennings">YouTube</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-sm-6">
                 <div class="pull-right">
-                    <img src="/html/img/logo_amazon.png" alt="AWS Partner Network">
+                    <span class="site-footer-norton">
+                      <script type="text/javascript" src="https://web.archive.org/web/20161231134647js_/https://seal.websecurity.norton.com/getseal?host_name=goanimate.com&amp;size=S&amp;use_flash=NO&amp;use_transparent=YES&amp;lang=en"></script>
+                    </span>
+                    <img src="https://web.archive.org/web/20161231134647im_/https://d2qrjeyl4jwu9j.cloudfront.net/static/766ffff01a7a3e3a/school/img/site/logo_amazon.png" alt="AWS Partner Network"/>
                     &nbsp;&nbsp;&nbsp;
-                    GoAnimate © 2025
+                    GoAnimate &copy; 2025
                 </div>
             </div>
         </div>
