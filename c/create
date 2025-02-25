@@ -49,34 +49,37 @@ var user_country = "US";
 
         <ul class="nav site-nav-alert-nav hidden-xs">
             <li>
-                <a href="/messages" title="Messages"><span class="glyphicon glyphicon-envelope"></span><span class="count"></span></a>
+                <a href="#" title="Messages"><span class="glyphicon glyphicon-envelope"></span><span class="count"></span></a>
             </li>
             <li>
-                <a href="/notifications" title="Notifications"><span class="glyphicon glyphicon-bell"></span><span class="count"></span></a>
+                <a href="#" title="Notifications"><span class="glyphicon glyphicon-bell"></span><span class="count"></span></a>
             </li>
         </ul>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
+			<li>
+			<a onclick="document.getElementById('file').click()">Upload a video xml</a>
+			</li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" href="#" data-toggle="dropdown">Your Account <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/you">Dashboard</a></li>
-                        <li><a href="/dashboard/videos">Your Videos</a></li>
+                        <li><a href="#">Dashboard</a></li>
+                        <li><a href="#">Your Videos</a></li>
                         <li class="divider"></li>
-                        <li><a href="/account">Account Settings</a></li>
-                        <li><a href="/profile">Your Profile</a></li>
+                        <li><a href="#">Account Settings</a></li>
+                        <li><a href="#">Your Profile</a></li>
                         <li class="divider"></li>
-                        <li><a class="logout-link" href="/logoff">Logout</a></li>
+                        <li><a class="logout-link" href="#">Logout</a></li>
                     </ul>
                 </li><li class="dropdown">
                     <a class="dropdown-toggle" href="#" data-toggle="dropdown">Explore <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/students">Students</a></li>
-                        <li><a href="/teachers">Teachers</a></li>
-                        <li><a href="/dashboard/videos">Videos</a></li>
+                        <li><a href="#">Students</a></li>
+                        <li><a href="#">Teachers</a></li>
+                        <li><a href="#">Videos</a></li>
                         <li class="divider"></li>
                         <li><a href="https://discord.gg/bb8xXaWPv3">Educator Experiences</a></li>
-                        <li><a href="/public_faq">FAQ</a></li>
+                        <li><a href="#">FAQ</a></li>
                     </ul>
                 </li>
                 <li>
@@ -573,10 +576,10 @@ var user_country = "US";
                 <div class="site-footer-nav-col">
                     <h5>About GoAnimate</h5>
                     <ul class="list-unstyled">
-                        <li><a href="https://web.archive.org/web/20161231134647/http://goanimate.com/about">Who We Are</a></li>
-                        <li><a href="https://web.archive.org/web/20161231134647/http://goanimate.com/contactus">Contact Us</a></li>
-                        <li><a href="https://web.archive.org/web/20161231134647/http://goanimate.com/video-maker-tips">Blog</a></li>
-                        <li><a href="https://web.archive.org/web/20161231134647/http://press.goanimate.com/">Press</a></li>
+                        <li><a href="#">Who We Are</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
                     </ul>
                 </div>
             </div>
@@ -585,7 +588,7 @@ var user_country = "US";
                 <div class="site-footer-nav-col">
                     <h5>GoAnimate Solutions</h5>
                     <ul class="list-unstyled">
-                        <li><a href="https://web.archive.org/web/20161231134647/http://goanimate4schools.com/" target="_blank">GoAnimate for Schools</a></li>
+                        <li><a href="#" target="_blank">GoAnimate For Schools</a></li>
                         <li class="hidden-xs">&nbsp;</li>
                         <li class="hidden-xs">&nbsp;</li>
                         <li class="hidden-xs">&nbsp;</li>
@@ -597,8 +600,8 @@ var user_country = "US";
                 <div class="site-footer-nav-col">
                     <h5>Usage Guidelines</h5>
                     <ul class="list-unstyled">
-                        <li><a href="/web/20161231134647/https://goanimate4schools.com/termsofuse">Terms of Service</a></li>
-                        <li><a href="/web/20161231134647/https://goanimate4schools.com/privacy">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
                         <li class="hidden-xs">&nbsp;</li>
                         <li class="hidden-xs">&nbsp;</li>
                     </ul>
@@ -609,8 +612,8 @@ var user_country = "US";
                 <div class="site-footer-nav-col">
                     <h5>Getting Help</h5>
                     <ul class="list-unstyled">
-                        <li><a href="https://web.archive.org/web/20161231134647/http://blog.goanimate4schools.com/">Educator Experiences</a></li>
-                        <li><a href="https://web.archive.org/web/20161231134647/https://goanimate4schools.zendesk.com/hc/en-us">Help Center</a></li>
+                        <li><a href="#">Educator Experiences</a></li>
+                        <li><a href="#">Help Center</a></li>
                         <li class="hidden-xs">&nbsp;</li>
                         <li class="hidden-xs">&nbsp;</li>
                     </ul>
@@ -624,11 +627,11 @@ var user_country = "US";
                 <div class="site-footer-socials-container">
                     Follow us on:
                     <ul class="site-footer-socials clearfix">
-                        <li><a class="facebook" href="https://web.archive.org/web/20161231134647/https://www.facebook.com/GoAnimateInc">Facebook</a></li>
-                        <li><a class="twitter" href="https://web.archive.org/web/20161231134647/https://twitter.com/Go4Schools">Twitter</a></li>
-                        <li><a class="linkedin" href="https://web.archive.org/web/20161231134647/https://www.linkedin.com/company/goanimate">Linked In</a></li>
-                        <li><a class="gplus" href="https://web.archive.org/web/20161231134647/https://plus.google.com/+goanimate">Google+</a></li>
-                        <li><a class="youtube" href="https://web.archive.org/web/20161231134647/https://www.youtube.com/user/GoAnimate">YouTube</a></li>
+                        <li><a class="facebook" href="https://facebook.com/GoAnimateInc">Facebook</a></li>
+                        <li><a class="twitter" href="https://twitter.com">Twitter</a></li>
+                        <li><a class="linkedin" href="https://linkedin.com">Linked In</a></li>
+                        <li><a class="gplus" href="https://google.com">Google+</a></li>
+                        <li><a class="youtube" href="https://youtube.com/@DJDominicJennings">YouTube</a></li>
                     </ul>
                 </div>
             </div>
@@ -651,37 +654,17 @@ var user_country = "US";
 <div id="studio_container" style="display: none;">
     <div id="studio_holder"><!-- Full Screen Studio -->
         <div style="top: 50%; position: relative;">
-            This content requires the Adobe Flash Player 10.3. <a href="https://web.archive.org/web/20161231134647/http://get.adobe.com/flashplayer/">Get Flash</a>
+            You can't use GoAnimate because Flash might be disabled. <a href="https://web.archive.org/web/20181218221022/https://get.adobe.com/flashplayer/">Enable Flash</a>.
         </div>
     </div>
 </div>
 
-<!-- Start of Async HubSpot Analytics Code -->
-  <script type="text/javascript">
-    (function(d,s,i,r) {
-      if (d.getElementById(i)){return;}
-      var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
-      n.id=i;n.src='//web.archive.org/web/20161231134647/https://js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/491659.js';
-      e.parentNode.insertBefore(n, e);
-    })(document,"script","hs-analytics",300000);
-  </script>
-<!-- End of Async HubSpot Analytics Code -->
+<form enctype="multipart/form-data" action="/ajax/videoUpload/" method="post" style="display: none;">
+		<input id="file" type="file" onchange="this.form.submit()" name="import" accept=".xml">
+	</form>
 
-<!-- SharpSpring begin -->
-<script type="text/javascript">
-var _ss = _ss || [];
-_ss.push(['_setDomain', 'https://web.archive.org/web/20161231134647/https://koi-3q6b8sg59e.marketingautomation.services/net']);
-_ss.push(['_setAccount', 'KOI-1OTR0IV8I']);
-_ss.push(['_trackPageView']);
-(function() {
-    var ss = document.createElement('script');
-    ss.type = 'text/javascript'; ss.async = true;
 
-    ss.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'koi-3Q6B8SG59E.marketingautomation.services/client/ss.js?ver=1.1.1';
-    var scr = document.getElementsByTagName('script')[0];
-    scr.parentNode.insertBefore(ss, scr);
-})();
-</script>
+<script>
 <!-- SharpSpring end -->
 
 </body>
